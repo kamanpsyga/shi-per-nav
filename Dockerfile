@@ -6,7 +6,7 @@ COPY package.json ./
 COPY app.js ./
 COPY index.html ./
 
-EXPOSE 3000
+EXPOSE 35500
 
 RUN apk add --no-cache curl bash && \
     npm install && \
